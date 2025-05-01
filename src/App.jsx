@@ -80,9 +80,9 @@ function App() {
         </CartProvider>
       ),
       children: [
-        { index: true, element:(<ProtectedRouting><Home /></ProtectedRouting>  ),},
-        { path: "aboutUs", element: (<ProtectedRouting><AboutUs /></ProtectedRouting>  ),  },
-        { path: "contactUs", element: (<ProtectedRouting><ContactUs /></ProtectedRouting>  ),  },
+        { index: true, element:<Home />},
+        { path: "aboutUs", element: <AboutUs />  },
+        { path: "contactUs", element: <ContactUs />  },
         { path: "/Register", element: <Register /> },
         { path: "ForgetPassword", element: <ForgetPassword /> },
         { path: "ResetPassword", element: <ResetPassword /> },
