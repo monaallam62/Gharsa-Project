@@ -6,7 +6,7 @@ export default function ProtectedRouting({children}) {
     if (localStorage.getItem("userToken") != null) {
         return children;
     } else {
-        return <Navigate to ='/loginIn' />
+        return <Navigate to ='/' />
     }
 }
 ProtectedRouting.propTypes = {
