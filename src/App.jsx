@@ -93,11 +93,11 @@ function App() {
         },
         {
           path: "/read/:id",
-          element: (<ProtectedRouting><ProductDetails /></ProtectedRouting>  ), 
+          element: <ProductDetails />  , 
         },
         {
           path: "/read/:id/cart",
-          element: (<ProtectedRouting><CartPage /></ProtectedRouting>  ), 
+          element:<CartPage />, 
         },
         {
           path: "/read/:id/cart/profile",
